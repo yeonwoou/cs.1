@@ -20,10 +20,8 @@ grid-template-rows:150px 200px;<br>
 <br><br>
 `간격 넣기`<br>
 display:grid;<br>
-grid-template-columns:repeat(3,minmax(2oopx,1fr));<br>
+grid-template-columns:repeat(3,minmax(200px,1fr));<br>
 grid-template-rows:150px 200px;<br>
 gap:20px 10px;<br>
 <br><br>
-`원하는 위치로 배치하기`<br>
 
-`이름으로 배치하기`<br>
