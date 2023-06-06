@@ -40,3 +40,21 @@ countdown = null;
 
 myFunction(5);
 ```
+
+## :star:즉시 실행 함수
+```html
+(function () {
+  console.log('Hi!');
+})();
+
+(function sayHi() {
+  console.log('Hi!');
+})();
+
+sayHi(); // ReferenceError
+
+```
+함수 선언과 동시에 즉시 실행되는 함수= 즉시 실행 함수 (표현)<br>
+ Immediately Invoked Function Expression, 줄여서 IIFE <br>
+ 함수에 이름지어도 외부에서 사용 불가능
+
