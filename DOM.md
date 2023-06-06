@@ -27,7 +27,9 @@ console.log(paragraph1.textContent);
 <img src=https://www.freecodecamp.org/news/content/images/2021/09/Screen-Shot-2021-09-26-at-2.35.31-PM.png>
 
 <br>
-## querySelector
+
+## querySelector()
+
 ```
 <h1>Favorite TV shows</h1>
 <ul class="list">
@@ -37,18 +39,25 @@ console.log(paragraph1.textContent);
   <li>The Crown</li>
 </ul>
 ```
+
 <br>
+
 ```
 [console창]const h1Element = document.querySelector("h1");
 console.log(h1Element);
 ```
+
 <br>
+
 <img src=https://www.freecodecamp.org/news/content/images/2021/09/Screen-Shot-2021-09-26-at-3.15.59-PM.png>
+
 ```
 const list = document.querySelector(".list");
 console.log(list);
 ```
+
 <br>
+
 <img src=https://www.freecodecamp.org/news/content/images/2021/09/Screen-Shot-2021-09-26-at-3.22.45-PM.png>
 
 ### querySelectorAll()
