@@ -42,6 +42,8 @@ myFunction(5);
 ```
 
 ## :star:즉시 실행 함수
+함수 선언과 동시에 즉시 실행되는 함수= 즉시 실행 함수 (표현)<br>
+ * Immediately Invoked Function Expression, 줄여서 IIFE <br>
 ```html
 (function () {
   console.log('Hi!');
@@ -54,7 +56,6 @@ myFunction(5);
 sayHi(); // ReferenceError
 
 ```
-함수 선언과 동시에 즉시 실행되는 함수= 즉시 실행 함수 (표현)<br>
- Immediately Invoked Function Expression, 줄여서 IIFE <br>
- 함수에 이름지어도 외부에서 사용 불가능
+> 함수에 이름지어도 외부에서 사용 불가능<br>
+ 프로그램 초기화 기능에 많이 활용
 
