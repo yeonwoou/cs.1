@@ -1,3 +1,5 @@
+##  :star:Named Function Expression (기명 함수 표현식)
+
 ```html
 const sayHi = function() {
 console.log('Hi');
